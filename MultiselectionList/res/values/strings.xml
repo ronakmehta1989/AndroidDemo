@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MultiselectionList</string>
+    <string name="search_hint">Search</string>
+    <string-array name="sports_array">
+        <item>Shuttle Badminton</item>
+        <item>Tennis</item>
+        <item>Table Tennis</item>
+        <item>Basket Ball</item>
+        <item>Foot Ball</item>
+        <item>Volley Ball</item>
+        <item>Hockey</item>
+        <item>Swimming</item>
+    </string-array>
+</resources>
