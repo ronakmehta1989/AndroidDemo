@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<outertag>
+	<innertag sampleattribute="assets">
+		<mytag>Ketan</mytag>
+		<tagwithnumber thenumber="1336" />
+	</innertag>
+	<innertag sampleattribute="assetsA">
+		<mytag>Ketan Patel</mytag>
+		<tagwithnumber thenumber="1337" />
+	</innertag>
+	<innertag sampleattribute="assetsAttribute">
+		<mytag>Ketan K Patel</mytag>
+		<tagwithnumber thenumber="1338" />
+	</innertag>
+</outertag>

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<outertag>
+	<innertag sampleattribute="xml">
+		<mytag>Ketan</mytag>
+		<tagwithnumber thenumber="1336" />
+	</innertag>
+	<innertag sampleattribute="xmlA">
+		<mytag>Ketan Patel</mytag>
+		<tagwithnumber thenumber="1337" />
+	</innertag>
+	<innertag sampleattribute="xmlAttribute">
+		<mytag>Ketan K Patel</mytag>
+		<tagwithnumber thenumber="1338" />
+	</innertag>
+</outertag>

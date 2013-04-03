@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<order macAddress="Assets" tableID="111" salesmanID="1111" total="150,60">
+  <category name="Carnes">
+    <product>
+      <id>7</id>
+      <name>Risotto de rabada com agriao</name>
+      <value>35,90</value>
+    </product>
+    <product>
+      <id>6</id>
+      <name>Prime Rib</name>
+      <value>65,90</value>
+    </product>
+  </category>
+  <category name="Massas">
+    <product>
+      <id>12</id>
+      <name>Linguine com Raga de Codorna</name>
+      <value>32,90</value>
+    </product>
+    <product>
+      <id>40</id>
+      <name>Sopa no PÃ£o</name>
+      <value>18,90</value>
+    </product>
+  </category>
+</order>
