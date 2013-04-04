@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tab_back_start">#E96866</color><!-- 403C40, E55454-->
+    <color name="tab_back_end">#BD0400</color><!-- 121412, BB0403 -->
+    <color name="tab_back_start_selected">#E04F53</color>
+    <color name="tab_back_end_selected">#BB0007</color>
+    <color name="tab_divider_start">#4C4F4C</color>
+    <color name="tab_divider_end">#4D4C4D</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="content_background">#F8F9ED</color>
+    <color name="calendar_month_title">#931716</color><!-- April 2012, Mon, Tue -->
+    <color name="calendar_dates">#728698</color><!-- 1,2 U.S Pizza -->
+    <color name="calendar_eventlist_secondrow">#CCB7B0</color><!-- From -->
+    <color name="calendar_eventlist_title">#980302</color><!-- Dinner -->
+    <color name="current_date_background">#49260F</color>
+    <color name="event_date_background">#CCB7B0</color>
+    <color name="grid_background">#2B2D2B</color>
+    <color name="list_start_color">#3d3d3d</color>
+    <color name="list_end_color">#252525</color>
+</resources>

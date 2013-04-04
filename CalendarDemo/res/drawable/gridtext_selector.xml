@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- <selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false"><shape>
+            <solid android:color="@color/transparent"/>
+            <corners android:radius="0dp"/>
+            <padding android:bottom="0dp" android:top="0dp"/>
+        </shape></item>
+    <item android:state_pressed="true" android:state_enabled="true"><shape>
+            <solid android:color="@color/calendar_month_title"/>
+            <corners android:radius="0dp"/>
+            <padding android:bottom="0dp" android:top="0dp"/>
+        </shape></item>
+    <item android:state_enabled="true" android:state_focused="true"><shape>
+            <solid android:color="@color/calendar_month_title"/>
+            <corners android:radius="0dp"/>
+            <padding android:bottom="0dp" android:top="0dp"/>
+        </shape></item>
+    <item android:state_enabled="true"><shape>
+            <solid android:color="@color/transparent"/>
+            <corners android:radius="0dp"/>
+            <padding android:bottom="0dp" android:top="0dp"/>
+        </shape></item>
+</selector> -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/item_border_selected" android:state_selected="true"/>
+    <item android:drawable="@drawable/item_border_selected" android:state_pressed="true"/>
+    <item android:drawable="@drawable/item_border"/>
+</selector>
