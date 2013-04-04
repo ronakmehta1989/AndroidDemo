@@ -20,7 +20,6 @@
 		</activity>
 	</application>
 	<uses-sdk
-		android:maxSdkVersion="17"
 		android:minSdkVersion="7"/>
 	<uses-permission android:name="android.permission.INTERNET"/>
 </manifest>

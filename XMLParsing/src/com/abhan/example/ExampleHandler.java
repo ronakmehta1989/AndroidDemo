@@ -23,13 +23,13 @@ public class ExampleHandler extends DefaultHandler {
 			String qName, Attributes atts) throws SAXException {
 		if (localName.equals("order")) {
 			this.inOrder = true;
-			Log.v("Ketan", "SAXOrderAttributes: " + atts.getValue("macAddress"));
-			Log.v("Ketan", "SAXOrderAttributes: " + atts.getValue("tableID"));
-			Log.v("Ketan", "SAXOrderAttributes: " + atts.getValue("salesmanID"));
-			Log.v("Ketan", "SAXOrderAttributes: " + atts.getValue("total"));
+			Log.v("ExampleHandler", "SAXOrderAttributes: " + atts.getValue("macAddress"));
+			Log.v("ExampleHandler", "SAXOrderAttributes: " + atts.getValue("tableID"));
+			Log.v("ExampleHandler", "SAXOrderAttributes: " + atts.getValue("salesmanID"));
+			Log.v("ExampleHandler", "SAXOrderAttributes: " + atts.getValue("total"));
 		} else if (localName.equals("category")) {
 			this.inCategory = true;
-			Log.v("Ketan", "SAXCategoryAttributes: " + atts.getValue("name"));
+			Log.v("ExampleHandler", "SAXCategoryAttributes: " + atts.getValue("name"));
 		} else if (localName.equals("product")) {
 			inProduct = true;
 		} else if (localName.equals("id")) {
@@ -64,11 +64,11 @@ public class ExampleHandler extends DefaultHandler {
 		if (this.inId) {
 			// XMLParsingActivity.mMyTagValues.add(new String(ch, start,
 			// length));
-			Log.v("Ketan", "SAXID: " + new String(ch, start, length));
+			Log.v("ExampleHandler", "SAXID: " + new String(ch, start, length));
 		} else if (this.inName) {
-			Log.v("Ketan", "SAXNAme: " + new String(ch, start, length));
+			Log.v("ExampleHandler", "SAXNAme: " + new String(ch, start, length));
 		} else if (this.inValue) {
-			Log.v("Ketan", "SAXValue: " + new String(ch, start, length));
+			Log.v("ExampleHandler", "SAXValue: " + new String(ch, start, length));
 		}
 	}
 }
