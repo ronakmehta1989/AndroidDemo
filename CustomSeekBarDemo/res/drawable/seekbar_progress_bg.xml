@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <clip>
+            <nine-patch
+                android:dither="true"
+                android:src="@drawable/scrubber_primary_holo"/>
+        </clip>
+    </item>
+    <!--
+         <item>
+        <clip>
+            <shape>
+                <gradient
+                    android:angle="270"
+                    android:centerY="0.1"
+                    android:endColor="#FF13729e"
+                    android:startColor="#FF5e8ea3"/>
+                <size android:height="2dp"/>
+            </shape>
+        </clip>
+    </item>
+    -->
+    <!--
+    <item>
+        <clip>
+            <bitmap
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:antialias="true"
+                android:dither="false"
+                android:filter="false"
+                android:gravity="left"
+                android:src="@drawable/scrubber_primary_holo"
+                android:tileMode="repeat"/>
+        </clip>
+    </item>
+    -->
+</layer-list>
