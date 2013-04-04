@@ -1,0 +1,5 @@
+<resources>
+	<string name="app_name">SendParcelableObject</string>
+	<string name="button">Send</string>
+	<string name="image">Image</string>
+</resources>
