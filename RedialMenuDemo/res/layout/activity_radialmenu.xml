@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLinearLayoutTest"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white" >
+    <RelativeLayout
+        android:id="@+id/relativeLayoutTest"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:src="@null" >
+        </ImageView>
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="Button" >
+        </Button>
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button1"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="65dp"
+            android:src="@drawable/red_circle" >
+        </ImageView>
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imageView3"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/blue_circle" >
+        </ImageView>
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/button1"
+            android:layout_alignTop="@+id/imageView4"
+            android:src="@drawable/green_circle" >
+        </ImageView>
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imageView5"
+            android:layout_marginLeft="21dp"
+            android:layout_toRightOf="@+id/imageView5"
+            android:src="@drawable/yellow_circle" >
+        </ImageView>
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textColor="@android:color/black"
+            android:text="Click anywhere on the screen..."
+            android:textAppearance="?android:attr/textAppearanceLarge" >
+        </TextView>
+    </RelativeLayout>
+</LinearLayout>
