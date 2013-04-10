@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@android:color/white" >
+	<TextView
+		android:id="@+id/main_txtStatus"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerInParent="true"
+		android:layout_marginLeft="5dp"
+		android:layout_marginRight="5dp"
+		android:gravity="center"
+		android:text="Status"
+		android:textColor="@android:color/black"
+		android:textSize="20dp"
+		android:textStyle="bold" />
+</RelativeLayout>
