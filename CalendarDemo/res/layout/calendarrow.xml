@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/calendarrow_parentbar"
-	android:layout_width="wrap_content"
-	android:layout_height="wrap_content">
-	<TextView
-	    android:id="@+id/calendarrow_date"
-	    android:layout_width="wrap_content"
-	    android:layout_height="50dp"
-	    android:layout_weight="1"
-	    android:gravity="center"
-	    android:paddingBottom="1dp"
-	    android:text=""
-	    android:textSize="15dp"
-	    android:textStyle="bold">
-	</TextView>
+              android:id="@+id/calendarrow_parentbar"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+    <TextView android:id="@+id/calendarrow_date"
+              android:layout_width="wrap_content"
+              android:layout_height="50dp"
+              android:layout_weight="1"
+              android:gravity="center"
+              android:paddingBottom="1dp"
+              android:text=""
+              android:textSize="15dp"
+              android:textStyle="bold"/>
 </LinearLayout>
